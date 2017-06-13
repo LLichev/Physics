@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Balance and Space</string>
+    <string name="level_mass">Where is the centre of balance?</string>
+    <string name="level_planets">Our solar system</string>
+    <string name="objective">Which of the yellow symbols correctly shows the horizontal centre of balance of the object?</string>
+    <string name="message_incorect">Incorrect!</string>
+    <string name="message_correct">Correct!</string>
+    <string name="back">Back</string>
+    <string name="quit">Quit</string>
+    <string name="balance">Balance</string>
+    <string name="mass">Balance</string>
+    <string name="planets">Planets</string>
+    <string name="playerScore">Score: 0</string>
+    <string name="nextLevel">Next</string>
+    <string name="planets_info">List the planets of our Solar System in ascending order of their distance from the Sun.</string>
+    <string name="check">Check</string>
+    <string name="signature">An application by Lyubomir Lichev</string>
+
+    <string-array name="planets_array">
+        <item></item>
+        <item>Earth</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Jupiter</item>
+        <item>Mercury</item>
+        <item>Neptune</item>
+        <item>Mars</item>
+        <item>Venus</item>
+
+    </string-array>
+
+</resources>

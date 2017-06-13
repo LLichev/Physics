@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_planets"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.lichev.physics.MassActivity">
+
+    <TextView
+        android:text="@string/planets_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/planets_info"
+        android:textAlignment="center"
+        android:lineSpacingExtra="8sp"
+        android:textSize="14sp"/>
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/sun"
+        android:scaleX="1.3"
+        android:scaleY="1.3"
+        android:id="@+id/img_sun"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/planets_info"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:id="@+id/planet_1"
+        android:layout_below="@+id/img_sun"
+        android:layout_alignStart="@+id/img_sun"/>
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:id="@+id/planet_2"
+        android:layout_below="@+id/planet_1"
+        android:layout_alignStart="@+id/planet_1"/>
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:id="@+id/planet_3"
+        android:layout_below="@+id/planet_2"
+        android:layout_alignStart="@+id/planet_2"/>
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:id="@+id/planet_4"
+        android:layout_below="@+id/planet_3"
+        android:layout_alignStart="@+id/planet_3"/>
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:id="@+id/planet_5"
+        android:layout_below="@+id/planet_4"
+        android:layout_alignStart="@+id/planet_4"/>
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:id="@+id/planet_6"
+        android:layout_below="@+id/planet_5"
+        android:layout_alignStart="@+id/planet_5"/>
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:id="@+id/planet_7"
+        android:layout_below="@+id/planet_6"
+        android:layout_alignStart="@+id/planet_6"/>
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:id="@+id/planet_8"
+        android:layout_below="@+id/planet_7"
+        android:layout_alignStart="@+id/planet_7"/>
+
+
+    <Spinner
+        android:id="@+id/planets_spinner1"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/planet_1"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp"/>
+    <Spinner
+        android:id="@+id/planets_spinner2"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/planet_2"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp"/>
+
+    <Spinner
+        android:id="@+id/planets_spinner3"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/planet_3"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp"/>
+
+    <Spinner
+        android:id="@+id/planets_spinner4"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/planet_4"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp"/>
+
+    <Spinner
+        android:id="@+id/planets_spinner5"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/planet_5"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp"/>
+
+    <Spinner
+        android:id="@+id/planets_spinner6"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/planet_6"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp"/>
+
+    <Spinner
+        android:id="@+id/planets_spinner7"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/planet_7"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp"/>
+
+    <Spinner
+        android:id="@+id/planets_spinner8"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/planet_8"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:text="@string/check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.Material.Button.Borderless.Colored"
+        android:layout_alignBottom="@+id/planet_8"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/btn_check"/>
+
+</RelativeLayout>
